@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basavaraj Kokane - Fullstack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="additional-styles.css">
+    <link rel="icon" href="logo2.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Basavaraj's Portfolio</span>
+            <div class="sharingan-tomoe"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="ripple-effect active">Home</a>
+            <a href="#about" class="ripple-effect">About</a>
+            <a href="#skills" class="ripple-effect">Skills</a>
+            <a href="#projects" class="ripple-effect">Projects</a>
+            <a href="#resume" class="ripple-effect">Resume</a>
+            <a href="#contact" class="ripple-effect">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+         <!-- AI Assistant -->
+    <div class="chat-bot-container">
+        <div class="chat-bot-icon" id="chatBotIcon">
+            <div class="robot-head">
+                <div class="robot-face">
+                    <div class="robot-antenna-left"></div>
+                    <div class="robot-antenna-right"></div>
+                    <div class="robot-eye left"></div>
+                    <div class="robot-eye right"></div>
+                    <div class="robot-mouth"></div>
+                </div>
+            </div>
+            <div class="ai-label">Basavaraj's AI</div>
+        </div>
+        
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <div class="robot-head small">
+                    <div class="robot-face">
+                        <div class="robot-antenna-left"></div>
+                        <div class="robot-antenna-right"></div>
+                        <div class="robot-eye left"></div>
+                        <div class="robot-eye right"></div>
+                        <div class="robot-mouth"></div>
+                    </div>
+                </div>
+                <h3>Basavaraj's AI Assistant</h3>
+                <button class="close-btn" id="closeChatBtn">&times;</button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <p>Hello! I'm Basavaraj's AI Assistant. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendMessage">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="sharingan-bg"></div>
+        <div class="hero-content">
+            <img  src="profile.jpg" alt="Basavaraj Kokane" class="profile-images" />
+            <h1><i>Hi, I'm Basavaraj Kokane</i><h1>
+            <h2><pre><mark> Fullstack Developer </mark></pre><h2>
+            <p class="uchiha-quote">"Like the Sharingan's ability to see through deception, I see through complex problems to find elegant solutions in both frontend and backend development."</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-primary ripple-effect">View My Work</a>
+                <a href="#contact" class="cta-secondary ripple-effect">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image scroll-fade-left">
+                <div class="image-placeholder sharingan-border">
+                    <img src="profile.jpg" alt="Basavaraj Kokane - Fullstack Developer" class="profile-image">
+                    <div class="mangekyo-pattern"></div>
+                </div>
+            </div>
+            <div class="about-text scroll-fade-right">
+                <p>Hi, I'm Basavaraj Kokane. An accomplished Fullstack Developer with a passion for creating seamless user experiences. With a solid foundation in Java, Spring Boot, HTML, CSS, and JavaScript, I specialize in crafting visually captivating and intuitively navigable applications. Leveraging my expertise in responsive design and full-stack development principles, I bring concepts to life with precision and functionality.</p>
+                <p>As a Computer Science Engineering student at VSM's Somashekhar R Kothiwale Institute of Technology, I've gained hands-on experience through multiple internships including Java Full Stack Development at Tap Academy Bangalore, Python Full Stack Development at Leosias Technology, and Frontend Development at various companies. My journey reflects dedication to continuous learning and mastering new technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Technical Arsenal</h2>
+        <div class="skills-container">
+            <div class="skills-intro scroll-fade-up">
+                <p>Like the evolution of the Sharingan, my skills continue to grow and adapt:</p><br>
+            </div>
+            <div class="skills-grid">
+                
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <!-- <p>[ Core Java & Advanced Java]</p> -->
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-java"></i>
+                    <h3>Spring Boot</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fas fa-database"></i>
+                    <h3>Hibernate</h3>
+                </div>
+                <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-react"></i>
+                    <h3>React JS</h3>
+                </div>
+                 <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-C Programing"></i>
+                    <h3>C Programing</h3>
+                </div> 
+                <!-- <div class="skill-card sharingan-card ripple-effect">
+                    <i class="fab fa-php"></i>
+                    <h3>PHP</h3>
+                </div> -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-container">
+            <div class="education-card sharingan-card scroll-fade-up">
+                <div class="education-badge"></div>
+                <h3>Bachelor of Engineering (B.E)</h3>
+                <div class="education-details">
+                    <p class="college"><i class="fas fa-university"></i> VSM's Somashekhar R Kothiwale Institute of Technology</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Nipani, Karnataka</p>
+                    <p class="department"><i class="fas fa-laptop-code"></i> Computer Science Engineering</p>
+                    <p class="duration"><i class="fas fa-calendar-alt"></i> 2021 - 2025</p>
+                    <div class="education-highlights">
+                        <p class="achievement"><i class="fas fa-award"></i> Strong Academic Performance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-card sharingan-card scroll-fade-up">
+                <div class="education-badge"></div>
+                <h3>12th Class (PUC)</h3>
+                <div class="education-details">
+                    <p class="college"><i class="fas fa-school"></i> Shivanand Mahavidyalaya PUC College</p>
+                       <p class="location"><i class="fas fa-map-marker-alt"></i> Kagwad, Karnataka</p>
+                    <p class="duration"><i class="fas fa-calendar-alt"></i> 2018 - 2020</p>
+                     <div class="education-highlights">
+                        <p class="achievement"><i class="fas fa-award"></i> Strong Academic Performance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="internship">
+        <h2 class="section-title"><pre>Internship Experience</pre></h2>
+        <div class="internship-container">
+            <div class="internship-card sharingan-card scroll-fade-up">
+                <div class="internship-badge"></div>
+                <h3>Java Full Stack Development</h3><br>
+                <div class="internship-details">
+                    <p class="company"><i class="fas fa-building"></i> Tap Academy, Bangalore</p>
+                    <p class="internship-type"><i class="fas fa-graduation-cap"></i> 6 Month Internship (2025)</p>
+                    <div class="internship-description">
+                        <p>Completed comprehensive Java Full Stack Development training with hands-on experience in enterprise-level application development.</p>
+                    </div>
+                    <div class="internship-skills">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Hibernate</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="internship-card sharingan-card scroll-fade-up">
+                <div class="internship-badge"></div>
+                <h3>Python Full Stack Development</h3><br>
+                <div class="internship-details">
+                    <p class="company"><i class="fas fa-building"></i> Leosias Technology</p>
+                    <p class="internship-type"><i class="fas fa-graduation-cap"></i> 3 Month Internship (2025)</p>
+                    <div class="internship-description">
+                        <p>Gained expertise in Python-based web development and machine learning applications.</p>
+                    </div>
+                    <div class="internship-skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+            <div class="internship-card sharingan-card scroll-fade-up">
+                <div class="internship-badge"></div>
+                <h3>Frontend Development</h3><br>
+                <div class="internship-details">
+                    <p class="company"><i class="fas fa-building"></i> S V Mindlogic</p>
+                    <p class="internship-type"><i class="fas fa-graduation-cap"></i> Internship (2021)</p>
+                    <div class="internship-description">
+                        <p>Developed responsive web interfaces and gained foundational experience in modern web technologies.</p>
+                    </div>
+                    <div class="internship-skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Accomplished Missions</h2>
+        <div class="mission-intro scroll-fade-up">
+            <p>Each project represents a challenge overcome, showcasing my expertise across different technologies and domains.</p><br>
+        </div>
+        <div class="aceternity-sticky-container" id="projectsContainer">
+          <!-- Left scrollable content -->
+          <div class="aceternity-content-wrapper">
+            <div class="aceternity-scrollable-content">
+              
+              <!-- Project 1 -->
+              <div class="aceternity-project-item" data-index="0">
+                <h2 class="aceternity-project-title">Missing Person Identification using Face Recognition</h2>
+                <p class="aceternity-project-description">
+                  AI-based project for face recognition in video surveillance systems. Developed and implemented AI-based face recognition algorithms focused on identifying missing persons in real-time video surveillance feeds. This system uses advanced computer vision techniques to identify and track missing persons in real-time video feeds from surveillance cameras.
+                </p>
+                <div class="project-technologies">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Computer Vision</span>
+                  <span class="tech-tag">Deep Learning</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn github-btn ripple-effect">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                  </a>
+                  <a href="#" class="project-btn demo-btn ripple-effect">
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="aceternity-project-item" data-index="1">
+                <h2 class="aceternity-project-title">Doctor-Patient Portal (Java Web Project)</h2>
+                <p class="aceternity-project-description">
+                  Built a comprehensive full-stack healthcare management system with role-based access for Admin, Doctor, and Patient. Implemented appointment scheduling, secure login, and database-driven CRUD operations. The system provides a seamless healthcare experience with secure data management and intuitive user interfaces for all stakeholders.
+                </p>
+                <div class="project-technologies">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Hibernate</span>
+                  <span class="tech-tag">HTML/CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn github-btn ripple-effect">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                  </a>
+                  <a href="#" class="project-btn demo-btn ripple-effect">
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="aceternity-project-item" data-index="2">
+                <h2 class="aceternity-project-title">Hostel Management System</h2>
+                <p class="aceternity-project-description">
+                  Developed a comprehensive web-based system to simplify hostel operations, including student registration, room booking, complaints, and feedback management. Implemented secure login and password recovery with role-based access. The system streamlines hostel administration and enhances student experience through digital transformation.
+                </p>
+                <div class="project-technologies">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn github-btn ripple-effect">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                  </a>
+                  <a href="#" class="project-btn demo-btn ripple-effect">
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 4 -->
+              <div class="aceternity-project-item" data-index="3">
+                <h2 class="aceternity-project-title">Soil Quality Prediction</h2>
+                <p class="aceternity-project-description">
+                  A web application designed to predict soil quality using machine learning algorithms. Python is used for backend, integrating robust machine learning models with a responsive user interface. The system analyzes various soil parameters and provides accurate predictions to help farmers make informed decisions about crop cultivation.
+                </p>
+                <div class="project-technologies">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Django</span>
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Scikit-learn</span>
+                  <span class="tech-tag">HTML/CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn github-btn ripple-effect">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                  </a>
+                  <a href="#" class="project-btn demo-btn ripple-effect">
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 5 -->
+              <div class="aceternity-project-item" data-index="4">
+                <h2 class="aceternity-project-title">Portfolio Website</h2>
+                <p class="aceternity-project-description">
+                  Impressive portfolio sites that showcase talents with a flawless user experience. The design focuses on simplicity, responsiveness, and readability to create better user engagement. Built with modern web technologies and optimized for performance across all devices and screen sizes.
+                </p>
+                <div class="project-technologies">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Responsive Design</span>
+                  <span class="tech-tag">Animation</span>
+                  <span class="tech-tag">UI/UX</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-btn github-btn ripple-effect">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                  </a>
+                  <a href="#" class="project-btn demo-btn ripple-effect">
+                    <i class="fas fa-external-link-alt"></i>
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+              
+              <!-- Bottom spacing -->
+              <div class="aceternity-bottom-spacing"></div>
+            </div>
+          </div>
+          
+          <!-- Right sticky content -->
+          <div class="aceternity-sticky-content" id="stickyContent">
+            <!-- Project 1 Content -->
+            <div class="aceternity-sticky-item active" data-content="0">
+              <img src="face-detection.jpg" alt="Face Recognition Project" class="aceternity-project-image">
+            </div>
+            
+            <!-- Project 2 Content -->
+            <div class="aceternity-sticky-item" data-content="1">
+              <img src="doctor.jpg" alt="Doctor Patient Portal" class="aceternity-project-image">
+            </div>
+            
+            <!-- Project 3 Content -->
+            <div class="aceternity-sticky-item" data-content="2">
+              <img src="Hostel-Management-System.jpg.webp" alt="Hostel Management System" class="aceternity-project-image">
+            </div>
+            
+            <!-- Project 4 Content -->
+            <div class="aceternity-sticky-item" data-content="3">
+              <img src="soil-quality.jpg" alt="Soil Quality Prediction" class="aceternity-project-image">
+            </div>
+            
+            <!-- Project 5 Content -->
+            <div class="aceternity-sticky-item" data-content="4">
+              <img src="profile.jpg" alt="Portfolio Website" class="aceternity-project-image">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2 class="section-title">My Resume</h2>
+        <div class="resume-content">
+            <div class="scroll-design">
+                <a href="basavarajresume.pdf" class="download-btn ripple-effect" download>
+                    <i class="fas fa-scroll"></i>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch – Let's Connect</h2>
+        <div class="contact-content scroll-fade-up">
+            <div class="contact-intro">
+                <p>Ready to collaborate? Let's connect and discuss your next project:</p><br>
+            </div>
+            <div class="contact-email scroll-fade-up">
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=rajukokane61@gmail.com&tf=cm" class="email-link ripple-effect" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                    <span>rajukokane61@gmail.com</span>
+                </a>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn ripple-effect">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-design">
+            <div class="uchiha-crest"></div>
+            <div class="footer-content">
+                <p>&copy; 2025 Basavaraj Kokane. All rights reserved.</p>
+                <div class="footer-social">
+                    <!-- Uiverse.io Social Media Component -->
+                    <ul class="wrapper">
+                      <li class="icon facebook">
+                        <span class="tooltip">Facebook</span>
+                        <svg
+                          viewBox="0 0 320 512"
+                          height="1.2em"
+                          fill="currentColor"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                          ></path>
+                        </svg>
+                      </li>
+                      <li class="icon twitter">
+                        <span class="tooltip">Twitter</span>
+                        <svg
+                          height="1.8em"
+                          fill="currentColor"
+                          viewBox="0 0 48 48"
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="twitter"
+                        >
+                          <path
+                            d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"
+                          ></path>
+                        </svg>
+                      </li>
+                      <li class="icon instagram">
+                        <span class="tooltip">Instagram</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="1.2em"
+                          fill="currentColor"
+                          class="bi bi-instagram"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                          ></path>
+                        </svg>
+                      </li>
+                      <li class="icon linkedin">
+                        <span class="tooltip">LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/basavaraj-kokane-68b90928b" target="_blank">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="1.2em"
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                            ></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="icon github">
+                        <span class="tooltip">GitHub</span>
+                        <a href="https://github.com/Basavaraj1229" target="_blank">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="1.2em"
+                            fill="currentColor"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                            ></path>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <!-- Aceternity Sticky Scroll JS -->
+    <script>
+        // Aceternity-style Sticky Scroll Functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('projectsContainer');
+            const scrollableContent = document.querySelector('.aceternity-scrollable-content');
+            const projectItems = document.querySelectorAll('.aceternity-project-item');
+            const stickyItems = document.querySelectorAll('.aceternity-sticky-item');
+            const stickyContent = document.querySelector('.aceternity-sticky-content');
+            
+            if (!container || !scrollableContent || projectItems.length === 0 || stickyItems.length === 0) {
+                console.log('Required elements not found. Check HTML structure.');
+                return;
+            }
+            
+            let activeCard = 0;
+            const cardLength = projectItems.length;
+            
+            // Background gradients for each project
+            const backgroundGradients = [
+                'linear-gradient(135deg, #0f172a, #1e293b)', // Project 1 - Dark blue
+                'linear-gradient(135deg, #1e1b4b, #312e81)', // Project 2 - Purple blue
+                'linear-gradient(135deg, #7c2d12, #ea580c)', // Project 3 - Orange
+                'linear-gradient(135deg, #14532d, #166534)', // Project 4 - Green
+                'linear-gradient(135deg, #581c87, #7c3aed)'  // Project 5 - Purple
+            ];
+            
+            const stickyBackgrounds = [
+                'linear-gradient(135deg, #06b6d4, #10b981)', // Cyan to emerald
+                'linear-gradient(135deg, #ec4899, #6366f1)', // Pink to indigo
+                'linear-gradient(135deg, #f97316, #eab308)', // Orange to yellow
+                'linear-gradient(135deg, #22c55e, #16a34a)', // Green shades
+                'linear-gradient(135deg, #a855f7, #8b5cf6)'  // Purple shades
+            ];
+            
+            function updateActiveCard(index) {
+                if (index < 0 || index >= cardLength) return;
+                
+                // Remove active class from all items
+                projectItems.forEach(item => item.classList.remove('active'));
+                stickyItems.forEach(item => item.classList.remove('active'));
+                
+                // Add active class to current items
+                if (projectItems[index]) {
+                    projectItems[index].classList.add('active');
+                }
+                if (stickyItems[index]) {
+                    stickyItems[index].classList.add('active');
+                }
+                
+                // Update container background with smooth transition
+                if (container && backgroundGradients[index]) {
+                    container.style.background = backgroundGradients[index];
+                }
+                
+                // Update sticky content background
+                if (stickyContent && stickyBackgrounds[index]) {
+                    stickyContent.style.background = stickyBackgrounds[index];
+                }
+                
+                activeCard = index;
+            }
+            
+            // Improved scroll detection using viewport position
+            function handleScroll() {
+                if (!scrollableContent) return;
+                
+                const containerRect = scrollableContent.getBoundingClientRect();
+                const containerCenter = containerRect.top + containerRect.height / 2;
+                
+                let closestIndex = 0;
+                let closestDistance = Infinity;
+                
+                projectItems.forEach((item, index) => {
+                    const itemRect = item.getBoundingClientRect();
+                    const itemCenter = itemRect.top + itemRect.height / 2;
+                    const distance = Math.abs(itemCenter - containerCenter);
+                    
+                    if (distance < closestDistance) {
+                        closestDistance = distance;
+                        closestIndex = index;
+                    }
+                });
+                
+                if (closestIndex !== activeCard) {
+                    updateActiveCard(closestIndex);
+                }
+            }
+            
+            // Intersection Observer for better performance
+            const observerOptions = {
+                root: scrollableContent,
+                rootMargin: '-40% 0px -40% 0px', // Trigger when item is 40% visible
+                threshold: 0.3
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const index = parseInt(entry.target.dataset.index);
+                        if (!isNaN(index) && index !== activeCard) {
+                            updateActiveCard(index);
+                        }
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all project items
+            projectItems.forEach((item, index) => {
+                // Ensure data-index is set correctly
+                if (!item.dataset.index) {
+                    item.dataset.index = index.toString();
+                }
+                observer.observe(item);
+            });
+            
+            // Listen to scroll events with throttling for performance
+            let scrollTimeout;
+            const throttledScroll = () => {
+                if (scrollTimeout) return;
+                scrollTimeout = setTimeout(() => {
+                    handleScroll();
+                    scrollTimeout = null;
+                }, 16); // ~60fps
+            };
+            
+            scrollableContent.addEventListener('scroll', throttledScroll, { passive: true });
+            
+            // Initialize first project as active
+            setTimeout(() => {
+                updateActiveCard(0);
+            }, 100);
+            
+            // Smooth scrolling behavior
+            scrollableContent.style.scrollBehavior = 'smooth';
+            
+            // Handle window resize
+            window.addEventListener('resize', () => {
+                setTimeout(handleScroll, 100);
+            });
+            
+            // Debug logging
+            console.log('Aceternity Sticky Scroll initialized with', {
+                projectItems: projectItems.length,
+                stickyItems: stickyItems.length,
+                container: !!container,
+                scrollableContent: !!scrollableContent
+            });
+        });
+    </script>
+    
+    <script src="script.js"></script>
+    <!-- Ripple Effect Script -->
+    <script>
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('ripple-effect')) {
+                const ripple = document.createElement('span');
+                ripple.classList.add('ripple');
+                const rect = e.target.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size/2;
+                const y = e.clientY - rect.top - size/2;
+                
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                
+                e.target.appendChild(ripple);
+                
+                ripple.addEventListener('animationend', () => {
+                    ripple.remove();
+                });
+            }
+        });
+    </script>
+
+    <!-- Scroll Animation Script -->
+    <script>
+        // Scroll Animation Observer
+        const scrollObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        // Observe all elements with scroll animation classes
+        document.querySelectorAll('.scroll-fade-up, .scroll-fade-left, .scroll-fade-right, .scroll-scale')
+            .forEach(el => scrollObserver.observe(el));
+
+        // Scroll Progress Indicator
+        const scrollProgress = document.createElement('div');
+        scrollProgress.className = 'scroll-progress';
+        document.body.appendChild(scrollProgress);
+
+        window.addEventListener('scroll', () => {
+            const winScroll = document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            scrollProgress.style.transform = `scaleX(${scrolled / 100})`;
+        });
+    </script>
+
+    <!-- Projects Horizontal Scroll Script -->
+    <script>
+        // Projects horizontal scroll functionality
+        const projectsGrid = document.getElementById('projectsGrid');
+        const scrollLeftBtn = document.getElementById('scrollLeft');
+        const scrollRightBtn = document.getElementById('scrollRight');
+        
+        const scrollAmount = 800; // Much faster scroll - nearly 2 card widths
+        
+        // Fast scroll with instant option for quicker movement
+        function scrollProjects(direction) {
+            projectsGrid.scrollBy({
+                left: direction * scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+        
+        scrollLeftBtn.addEventListener('click', () => {
+            scrollProjects(-1);
+        });
+        
+        scrollRightBtn.addEventListener('click', () => {
+            scrollProjects(1);
+        });
+        
+        // Double-click for instant fast scroll
+        let leftClickCount = 0;
+        let rightClickCount = 0;
+        
+        scrollLeftBtn.addEventListener('dblclick', () => {
+            projectsGrid.scrollBy({
+                left: -scrollAmount * 2,
+                behavior: 'instant'
+            });
+        });
+        
+        scrollRightBtn.addEventListener('dblclick', () => {
+            projectsGrid.scrollBy({
+                left: scrollAmount * 2,
+                behavior: 'instant'
+            });
+        });
+        
+        // Add keyboard support for faster navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft' && e.ctrlKey) {
+                e.preventDefault();
+                projectsGrid.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            } else if (e.key === 'ArrowRight' && e.ctrlKey) {
+                e.preventDefault();
+                projectsGrid.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        });
+        
+        // Touch/swipe support for mobile
+        let startX = 0;
+        let startY = 0;
+        let scrollStart = 0;
+        
+        projectsGrid.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+            scrollStart = projectsGrid.scrollLeft;
+        });
+        
+        projectsGrid.addEventListener('touchmove', (e) => {
+            // Only handle horizontal touch movement
+            const touch = e.touches[0];
+            const deltaX = Math.abs(touch.clientX - startX);
+            const deltaY = Math.abs(touch.clientY - startY);
+            
+            // Only prevent default if horizontal movement is greater than vertical
+            if (deltaX > deltaY && deltaX > 15) {
+                e.preventDefault();
+                const walk = (touch.clientX - startX) * 1.5;
+                projectsGrid.scrollLeft = scrollStart - walk;
+            }
+        });
+        
+        // Mouse wheel horizontal scroll (only when hovering over projects grid)
+        projectsGrid.addEventListener('wheel', (e) => {
+            // Only prevent default and handle horizontal scroll if scrolling horizontally
+            // or if there's horizontal scroll available
+            const canScrollLeft = projectsGrid.scrollLeft > 0;
+            const canScrollRight = projectsGrid.scrollLeft < (projectsGrid.scrollWidth - projectsGrid.clientWidth);
+            
+            if ((canScrollLeft || canScrollRight) && Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
+                e.preventDefault();
+                projectsGrid.scrollLeft += e.deltaX;
+            } else if ((canScrollLeft || canScrollRight) && e.shiftKey) {
+                // Allow horizontal scroll with Shift+Wheel
+                e.preventDefault();
+                projectsGrid.scrollLeft += e.deltaY;
+            }
+        });
+        
+        // Hide/show scroll buttons based on scroll position
+        function updateScrollButtons() {
+            const maxScroll = projectsGrid.scrollWidth - projectsGrid.clientWidth;
+            
+            if (projectsGrid.scrollLeft <= 0) {
+                scrollLeftBtn.style.opacity = '0.5';
+                scrollLeftBtn.style.pointerEvents = 'none';
+            } else {
+                scrollLeftBtn.style.opacity = '1';
+                scrollLeftBtn.style.pointerEvents = 'auto';
+            }
+            
+            if (projectsGrid.scrollLeft >= maxScroll) {
+                scrollRightBtn.style.opacity = '0.5';
+                scrollRightBtn.style.pointerEvents = 'none';
+            } else {
+                scrollRightBtn.style.opacity = '1';
+                scrollRightBtn.style.pointerEvents = 'auto';
+            }
+        }
+        
+        projectsGrid.addEventListener('scroll', updateScrollButtons);
+        window.addEventListener('resize', updateScrollButtons);
+        
+        // Initialize scroll button states
+        setTimeout(updateScrollButtons, 100);
+        
+        // Ensure project images are visible
+        function ensureImagesVisible() {
+            const projectImages = document.querySelectorAll('.project-image img');
+            projectImages.forEach(img => {
+                img.style.display = 'block';
+                img.style.visibility = 'visible';
+                img.style.opacity = '1';
+                
+                // Add error handling without hiding the image
+                img.addEventListener('error', function() {
+                    this.style.display = 'block';
+                    this.alt = 'Image not available';
+                });
+                
+                // Ensure image loads
+                img.addEventListener('load', function() {
+                    this.style.display = 'block';
+                    this.style.visibility = 'visible';
+                    this.style.opacity = '1';
+                });
+            });
+        }
+        
+        // Call immediately and after DOM loads
+        ensureImagesVisible();
+        window.addEventListener('load', ensureImagesVisible);
+        
+        // Project Card Expand/Collapse Functionality
+        function toggleExpand(button) {
+            const projectCard = button.closest('.project-card');
+            const expandableContent = projectCard.querySelector('.project-expandable-content');
+            const expandText = button.querySelector('.expand-text');
+            const expandIcon = button.querySelector('.expand-icon');
+            
+            // Toggle expanded class
+            const isExpanded = expandableContent.classList.contains('expanded');
+            
+            if (isExpanded) {
+                // Collapse
+                expandableContent.classList.remove('expanded');
+                button.classList.remove('expanded');
+                expandText.textContent = 'Read More';
+                projectCard.style.maxHeight = '450px';
+            } else {
+                // Expand
+                expandableContent.classList.add('expanded');
+                button.classList.add('expanded');
+                expandText.textContent = 'Read Less';
+                projectCard.style.maxHeight = '800px';
+            }
+        }
+        
+        // Ensure buttons stay positioned correctly during scroll
+        function ensureButtonPosition() {
+            const containerRect = document.querySelector('.projects-container').getBoundingClientRect();
+            scrollLeftBtn.style.position = 'absolute';
+            scrollRightBtn.style.position = 'absolute';
+        }
+        
+        projectsGrid.addEventListener('scroll', ensureButtonPosition);
+        window.addEventListener('resize', ensureButtonPosition);
+    </script>
+
+    <!-- AI Assistant Script -->
+    <script>
+        const chatBot = document.querySelector('.chat-bot-container');
+        const chatBotIcon = document.getElementById('chatBotIcon');
+        const chatBox = document.getElementById('chatBox');
+        const closeChatBtn = document.getElementById('closeChatBtn');
+        const sections = document.querySelectorAll('section');
+
+        function toggleChatBox() {
+            chatBox.classList.toggle('active');
+        }
+
+        // Open chat when clicking the AI icon
+        chatBotIcon.addEventListener('click', toggleChatBox);
+
+        // Close chat when clicking the close button
+        closeChatBtn.addEventListener('click', () => {
+            chatBox.classList.remove('active');
+        });
+
+        window.addEventListener('scroll', () => {
+            // Section-based color changes
+            const currentSection = Array.from(sections).find(section => {
+                const rect = section.getBoundingClientRect();
+                return rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
+            });
+
+            if (currentSection) {
+                // Remove all section classes
+                chatBotIcon.classList.remove('home-section', 'about-section', 'skills-section', 'projects-section', 'contact-section');
+                // Add current section class
+                chatBotIcon.classList.add(currentSection.id + '-section');
+            }
+        });
+    </script>
+</body>
+
+</html>

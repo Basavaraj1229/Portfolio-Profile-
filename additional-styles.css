@@ -1,0 +1,395 @@
+/* Project Technologies and Links Styles */
+.project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tech-tag {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    display: inline-block;
+    min-width: fit-content;
+    text-align: center;
+}
+
+.tech-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+    width: auto;
+    height: auto;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: flex-start;
+}
+
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem !important;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem !important;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    box-sizing: border-box;
+    width: auto !important;
+    height: auto !important;
+}
+
+.github-btn {
+    background: linear-gradient(135deg, #333, #555);
+    color: white;
+}
+
+.github-btn:hover {
+    background: linear-gradient(135deg, #555, #777) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: auto !important;
+    height: 44px !important;
+    min-width: 120px !important;
+    max-width: 200px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    transform: none !important;
+}
+
+.demo-btn {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+}
+
+.demo-btn:hover {
+    background: linear-gradient(135deg, var(--accent-color), var(--primary-color)) !important;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+    width: auto !important;
+    height: 44px !important;
+    min-width: 120px !important;
+    max-width: 200px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    transform: none !important;
+}
+
+.project-btn i {
+    font-size: 1rem;
+}
+
+/* Prevent button size changes on click/active states */
+.project-btn:active,
+.project-btn:focus,
+.project-btn:visited {
+    transform: none !important;
+    outline: none !important;
+    width: auto !important;
+    height: 44px !important;
+    min-width: 120px !important;
+    max-width: 200px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    box-sizing: border-box !important;
+}
+
+.github-btn:active,
+.github-btn:focus,
+.github-btn:visited {
+    background: linear-gradient(135deg, #555, #777) !important;
+    transform: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+    width: auto !important;
+    height: 44px !important;
+    min-width: 120px !important;
+    max-width: 200px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 0.9rem !important;
+}
+
+.demo-btn:active,
+.demo-btn:focus,
+.demo-btn:visited {
+    background: linear-gradient(135deg, var(--accent-color), var(--primary-color)) !important;
+    transform: none !important;
+    box-shadow: 0 2px 8px rgba(255, 0, 0, 0.3) !important;
+    width: auto !important;
+    height: 44px !important;
+    min-width: 120px !important;
+    max-width: 200px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 0.9rem !important;
+}
+
+/* Prevent tech tag size changes */
+.tech-tag:active,
+.tech-tag:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(255, 0, 0, 0.3);
+    width: auto;
+    height: auto;
+}
+
+/* Uiverse.io Social Media Component Styles */
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Make social media SVG icons visible */
+.wrapper .icon svg {
+    color: #333 !important;
+    fill: #333 !important;
+    width: 20px;
+    height: 20px;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+}
+
+.wrapper .facebook:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+}
+
+.wrapper .twitter:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+}
+
+.wrapper .instagram:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+    background: #0077b5;
+    color: #fff;
+}
+
+.wrapper .linkedin:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+    background: #333;
+    color: #fff;
+}
+
+.wrapper .github:hover svg {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.wrapper .icon a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Final Button Size Fix */
+.project-btn,
+.github-btn,
+.demo-btn {
+    min-width: 120px !important;
+    max-width: 200px !important;
+    width: auto !important;
+    height: 44px !important;
+    line-height: 1.2 !important;
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    transform: none !important;
+    scale: none !important;
+    zoom: 1 !important;
+}
+
+/* Ensure no size changes on any state */
+.project-btn:hover,
+.project-btn:active,
+.project-btn:focus,
+.project-btn:visited,
+.github-btn:hover,
+.github-btn:active,
+.github-btn:focus,
+.github-btn:visited,
+.demo-btn:hover,
+.demo-btn:active,
+.demo-btn:focus,
+.demo-btn:visited {
+    min-width: 120px !important;
+    max-width: 200px !important;
+    width: auto !important;
+    height: 44px !important;
+    transform: none !important;
+    scale: none !important;
+    zoom: 1 !important;
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+}
+
+.project-btn *,
+.github-btn *,
+.demo-btn * {
+    pointer-events: none !important;
+}
+
+/* Global Cursor Visibility Fix */
+* {
+    cursor: auto !important;
+}
+
+a, button, .ripple-effect, .project-btn, .cta-primary, .cta-secondary, 
+.submit-btn, .nav-links a, .social-btn, .wrapper .icon {
+    cursor: pointer !important;
+}
+
+input, textarea, select {
+    cursor: text !important;
+}
+
+/* Responsive adjustments for new components */
+@media (max-width: 768px) {
+    .project-technologies {
+        gap: 0.3rem;
+    }
+    
+    .tech-tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+        white-space: nowrap;
+        min-width: fit-content;
+    }
+    
+    .project-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .project-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        min-width: fit-content;
+    }
+    
+    .wrapper {
+        height: 80px;
+        padding-top: 20px;
+    }
+    
+    .wrapper .icon {
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+}
