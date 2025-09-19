@@ -55,9 +55,9 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 2. **Open in browser**
    ```bash
    # Simply open the HTML file in your browser
-   open Basavaraj_Portfolio_Complete.html
+   open index.html
    # Or on Windows
-   start Basavaraj_Portfolio_Complete.html
+   start index.html
    ```
 
 3. **For development**
@@ -69,7 +69,7 @@ A modern, responsive portfolio website showcasing my skills as a Full-Stack Deve
 ```
 Portfolio-Profile-/
 │
-├── 📄 Basavaraj_Portfolio_Complete.html    # Main HTML file
+├── 📄 index.html                           # Main HTML file
 ├── 🎨 styles.css                          # Main stylesheet
 ├── 🎨 additional-styles.css               # Additional component styles
 ├── ⚡ script.js                           # JavaScript functionality
